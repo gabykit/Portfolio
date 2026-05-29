@@ -1,0 +1,117 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2d3436;
+    background-color: white;
+}
+
+/* Navigation */
+nav{
+    padding: 1em 0;
+    background-color: #2d3436;
+}
+.nav-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 50px; 
+  background-color: #2d3436; 
+  color: white;
+}
+
+/* Style logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
+
+.logo h1{
+  font-family: cursive;
+}
+.logo img {
+    height: 50px; 
+    border-radius: 4px;
+}
+
+/* Barre de navigation */
+.navigation ul  {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+.navigation ul  li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    padding: 100px 0;
+    background: #f5f6fa;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Grille de projets */
+
+/* Container_class */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #0984e3;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+.card span {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #0984e3;
+    font-weight: bold;
+}
+
+
+
+/* Footer */
+footer {
+    background: #2d3436;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+}

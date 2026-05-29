@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2d3436;
+    background-color: white;
+}
+
+/* Navigation */
+nav{
+    padding: 1em 0;
+    background-color: #2d3436;
+}
+.nav-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 50px; 
+  background-color: #2d3436; 
+  color: white;
+}
+
+/* Style logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
+
+.logo h1{
+  font-family: cursive;
+}
+.logo img {
+    height: 50px; 
+    border-radius: 4px;
+}
+
+/* Barre de navigation */
+.navigation ul  {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+.navigation ul  li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main */
+.main-container{
+    /*border-radius: 10px;
+    background: url(../images/slide.jpg);
+    background-position: center;
+    background-size: cover; */
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 40px 50px;
+    display: flex;
+    margin-top: 10%;
+}
+
+/*sous-div text*/
+.text{
+    flex: 1;
+}
+p{
+    margin:20px 0 50px 0;
+}
+a{
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: #2575DB;
+}
+
+/*sous-div form*/
+.form{
+    /* padding: 0 20px;    
+    backdrop-filter: blur(10px); */
+    height: auto;
+    flex: 1;
+}
+.form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form textarea{
+    padding: 40px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize:none;
+}
+form input{
+    padding: 15px 40px 15px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: #333;
+}
+form button{
+    border: none;
+    background-color:#2575DB;
+    color:#fff;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 8px 0 #1A5BB8;
+}
+button:hover{
+    transform: translateY(5px);
+    box-shadow: none;
+    background-color: #1A5BB8;
+    color: #ECEFF1;
+}
