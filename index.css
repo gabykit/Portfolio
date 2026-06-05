@@ -125,3 +125,12 @@ nav{
   border-radius: 50%; 
   box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
 }
+
+/* Footer */
+footer {
+    background:  #2d3436;
+    color: #ECEFF1;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+}
