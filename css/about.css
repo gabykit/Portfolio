@@ -7,7 +7,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #2d3436;
-    background-color: white;
+    background-color: rgba(209, 42, 42, 0.37);
 }
 
 /* Navigation */
